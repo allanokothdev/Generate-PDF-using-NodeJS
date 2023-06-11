@@ -1,0 +1,19 @@
+{
+  "name": "generate-pdf",
+  "version": "1.0.0",
+  "description": "Generate PDF Using NodeJS",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "NodeJS"
+  ],
+  "author": "Allan Okoth",
+  "license": "ISC",
+  "dependencies": {
+    "ejs": "^3.1.9",
+    "fs": "^0.0.1-security",
+    "html-pdf": "^3.0.1"
+  }
+}

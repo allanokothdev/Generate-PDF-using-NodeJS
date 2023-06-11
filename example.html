@@ -1,0 +1,43 @@
+<html>
+
+<head>
+    <title>idKblogs</title>
+</head>
+
+<body style='width:100%'>
+    <hr>
+    <div>
+        <p>In this article, we will learn how we can generate PDF using nodejs.</p>
+        <p>To generate PDF we need a HTML page and using that page we will generate the same design in pdf. The HTML design would be a platform to generate the PDF. </p>
+        <p>To create PDF you need to make HTML content of that particular, We will generate PDF of same HTML content.</p>
+        <p>So let's start </p>
+        <p>I am using nodejs and I want to generate PDF on specific route ( end point/API ). It means I will hit that URL in my browser then it will generate the PDF and give us that pdf. we will use following npm modules: </p>
+        <p class="code"> ejs, fs and pdf </p>
+        <h2>Step 1: Create a server in nodejs:</h2>
+        <p>  Create a file with name "app.js" and paste the below code:  </p>
+        <script src="https://gist.github.com/svsh227/e22cf13e0590ef740b56c5b3c6ec6460.js"></script>
+
+        <h3>Step 2: Write the HTML file to generate the pdf of that file:</h3>
+        <p>Let's create a HTML file with name "example.html", and we will generate the pdf of html file later</p>
+        <p>Now create a file example.html in same directory and write the below code:</p>
+        <script src="https://gist.github.com/svsh227/e6cd6e81bf6ade5bafd07dd9baa492ea.js"></script>
+        <h3>Step 3: Write the logic to create generate pdf:</h3>
+        <p> Let's write the logic to create the PDF, to do this create a file "pdfGenerator.js" and write the below code:  </p>
+        <p> pdfGenerator.js </p>
+        <script src="https://gist.github.com/svsh227/c25486ee4113f08493db7d5eec1d9c36.js"></script>
+        <h3>Step 4: Run the app :</h3>
+        <p>To get the result, we need to run the app using below command:</p>
+        <p class="code">  node app.js </p>
+        <p>Now goto the Browser, and Hit URL "localhost:3100/" and see the result.</p>
+        <p>In your app folder you can see the pdf is generated of the given html file.</p>
+        <h3>Conclusion:</h3>
+        <p>In this article, we learned how we can create PDF file in nodejs. </p>
+        <hr>
+        <p class="thanks">If you’re interested in Node.js or JavaScript, then 
+            <a target="_blank" href='https://idkblogs.com'>this link</a> will help.
+            Thank you so much for taking the time to read this article.
+            <br>
+            <br>
+</body>
+
+</html>
